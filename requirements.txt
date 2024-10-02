@@ -1,0 +1,7 @@
+pandas
+scikit-learn
+numpy
+matplotlib
+sqlalchemy<2.0
+psycopg2
+hopsworks
