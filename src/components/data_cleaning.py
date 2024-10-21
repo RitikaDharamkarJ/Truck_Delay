@@ -7,8 +7,7 @@ import sys
 import hopsworks  # Import Hopsworks
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 from src.utils.configutils import *
 
 CONFIG_FILE_PATH = 'C:/Truck_Delay_Classification/src/config/config.ini'
