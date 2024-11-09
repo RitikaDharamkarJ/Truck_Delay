@@ -2,3 +2,4 @@ Data
 .venv
 tdcenv
 env
+/src/__pycache__/
