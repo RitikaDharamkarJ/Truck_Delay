@@ -239,7 +239,26 @@ class DataMergingPipeline:
         final_merge = final_merge.drop(columns=['city_id_x','city_id_y','custom_date_x','custom_date_y'])
         final_merge['unique_id'] = final_merge.index
         final_merge.dropna(inplace=True)
+        final_merge['event_time']= pd.to_datetime('2024-10-8')
         print(final_merge.shape)
+
+        # Call the function to process the DataFrame
+        print(" processing the final merge dataframe")
+        final_merge = self.data_merge_obj.process_final_merge(final_merge)
+        
+        
+        # Now call the function as in the usage example
+        print("Inserting the final_merge into the hopswork...")
+        final_merge = self.data_merge_obj.insert_dataframe_to_feature_group(final_merge
+            # dataframe=final_merge,  # Ensure you’re using the right parameter name here
+            # feature_group_name="final_data_feature_group",
+            # primary_key=["unique_id"],
+            # description="Updated truck delay data with additional features",
+            # event_time="event_time"
+        )
+            
+    
+
 
         print("Data processing completed.")
 

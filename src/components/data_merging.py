@@ -397,3 +397,73 @@ class DataMerge:
         
         return merged_df
 
+#Step 16
+
+
+    def process_final_merge(self, final_merge):
+            # Step 1: Get the min and max values of 'estimated_arrival'
+            # min_estimated_arrival = final_merge['estimated_arrival'].min()
+            # max_estimated_arrival = final_merge['estimated_arrival'].max()
+            # print(f"Min estimated arrival: {min_estimated_arrival}, Max estimated arrival: {max_estimated_arrival}")
+            
+            # Step 2: Replace suffixes '_x' and '_y' with '_origin' and '_destination'
+            final_merge.columns = final_merge.columns.str.replace('_x$', '_origin', regex=True)
+            final_merge.columns = final_merge.columns.str.replace('_y$', '_destination', regex=True)
+            
+            # Step 3: Rename columns based on the mapping dictionary
+            rename_mapping = {
+                'origin_temp': 'temp_origin',
+                'origin_wind_speed': 'wind_speed_origin',
+                'origin_precip': 'precip_origin',
+                'origin_humidity': 'humidity_origin',
+                'origin_visibility': 'visibility_origin',
+                'origin_pressure': 'pressure_origin',
+                'destination_temp': 'temp_destination',
+                'destination_wind_speed': 'wind_speed_destination',
+                'destination_precip': 'precip_destination',
+                'destination_humidity': 'humidity_destination',
+                'destination_visibility': 'visibility_destination',
+                'destination_pressure': 'pressure_destination',
+                'description_origin': 'origin_description',
+                'description_destination': 'destination_description'
+            }
+            
+            # Apply renaming
+            final_merge = final_merge.rename(columns=rename_mapping)
+            print(final_merge.columns)
+            
+            # Return the processed DataFrame
+            return final_merge
+    
+    def insert_dataframe_to_feature_group(self, final_merge):
+        """
+        Inserts a DataFrame into Hopsworks as a feature group.
+        
+        Args:
+        - dataframe (pd.DataFrame): The DataFrame to insert.
+        - feature_store (hopsworks.FeatureStore): The Hopsworks feature store instance.
+        - feature_group_name (str): Name of the feature group.
+        - primary_key (list): List of columns to set as primary keys.
+        - description (str): Description of the feature group.
+        - event_time (str): Name of the event time column in the DataFrame.
+        """
+        
+        # Set up the project and feature store connection
+        project = hopsworks.login(api_key_value="O4IOxWozstKu0BFQ.07C1tbvgVI5C4XNLbLrGH4PS4t0EqBYN00ex8318TNIkl82WwDi3Vh9MidMrCA83")
+        fs = project.get_feature_store()
+        print(f"Connected to feature store: {fs.name}")
+        
+        # Create or get the feature group
+        final_merge_fg = fs.get_or_create_feature_group(
+            name="final_merge_df",
+            version=1,
+            description="final_merge",
+            online_enabled=False,
+            primary_key=['unique_id'],
+            event_time='event_time',
+            )
+        
+        # Insert the DataFrame
+       # Attempt to insert the DataFrame into the feature store again
+        final_merge_fg.insert(final_merge)
+        print(f"DataFrame inserted into feature group: {final_merge_fg}")
