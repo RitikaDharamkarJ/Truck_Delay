@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/75569e9e0c6c4470a67f6cfdf416dd88/artifacts
+end_time: 1730750428495
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75569e9e0c6c4470a67f6cfdf416dd88
+run_name: gregarious-zebra-516
+run_uuid: 75569e9e0c6c4470a67f6cfdf416dd88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730750426266
+status: 3
+tags: []
+user_id: ritik

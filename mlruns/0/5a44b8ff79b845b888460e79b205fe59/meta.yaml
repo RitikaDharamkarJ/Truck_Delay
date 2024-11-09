@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/5a44b8ff79b845b888460e79b205fe59/artifacts
+end_time: 1730777629250
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5a44b8ff79b845b888460e79b205fe59
+run_name: abrasive-mink-160
+run_uuid: 5a44b8ff79b845b888460e79b205fe59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730777626660
+status: 3
+tags: []
+user_id: ritik

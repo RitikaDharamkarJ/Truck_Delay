@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1730773914212
+current_stage: None
+description: ''
+last_updated_timestamp: 1730773914212
+name: Random_Forest_Model
+run_id: 33a2edc03a8447eea1565b0ced7830b3
+run_link: ''
+source: file:///C:/Truck_Delay_Classification/mlruns/663283817536788196/33a2edc03a8447eea1565b0ced7830b3/artifacts/Random_Forest
+status: READY
+status_message: null
+storage_location: file:///C:/Truck_Delay_Classification/mlruns/663283817536788196/33a2edc03a8447eea1565b0ced7830b3/artifacts/Random_Forest
+user_id: null
+version: 3

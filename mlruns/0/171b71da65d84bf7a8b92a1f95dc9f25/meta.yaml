@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/171b71da65d84bf7a8b92a1f95dc9f25/artifacts
+end_time: 1730774523258
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 171b71da65d84bf7a8b92a1f95dc9f25
+run_name: grandiose-midge-871
+run_uuid: 171b71da65d84bf7a8b92a1f95dc9f25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730774520777
+status: 3
+tags: []
+user_id: ritik

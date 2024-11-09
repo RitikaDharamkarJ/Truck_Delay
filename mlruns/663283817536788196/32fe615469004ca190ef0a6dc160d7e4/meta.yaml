@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Truck_Delay_Classification/mlruns/663283817536788196/32fe615469004ca190ef0a6dc160d7e4/artifacts
+end_time: 1729979760803
+entry_point_name: ''
+experiment_id: '663283817536788196'
+lifecycle_stage: active
+run_id: 32fe615469004ca190ef0a6dc160d7e4
+run_name: clean-jay-365
+run_uuid: 32fe615469004ca190ef0a6dc160d7e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729979759844
+status: 3
+tags: []
+user_id: ritik

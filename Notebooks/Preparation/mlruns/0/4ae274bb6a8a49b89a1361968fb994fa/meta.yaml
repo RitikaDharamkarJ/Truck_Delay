@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Truck_Delay_Classification/Notebooks/Preparation/mlruns/0/4ae274bb6a8a49b89a1361968fb994fa/artifacts
+end_time: 1729698397434
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ae274bb6a8a49b89a1361968fb994fa
+run_name: adorable-worm-825
+run_uuid: 4ae274bb6a8a49b89a1361968fb994fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729698395117
+status: 3
+tags: []
+user_id: ritik

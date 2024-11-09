@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Truck_Delay_Classification/Notebooks/Preparation/mlruns/257651716128004144/6d69a30aa9344fa986fdd3a30d9675f2/artifacts
+end_time: 1729698669003
+entry_point_name: ''
+experiment_id: '257651716128004144'
+lifecycle_stage: active
+run_id: 6d69a30aa9344fa986fdd3a30d9675f2
+run_name: Best_Model_Registration_XGBoost
+run_uuid: 6d69a30aa9344fa986fdd3a30d9675f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729698665060
+status: 3
+tags: []
+user_id: ritik

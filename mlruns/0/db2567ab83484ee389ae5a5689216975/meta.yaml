@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/db2567ab83484ee389ae5a5689216975/artifacts
+end_time: 1730750277540
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: db2567ab83484ee389ae5a5689216975
+run_name: fearless-mole-59
+run_uuid: db2567ab83484ee389ae5a5689216975
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730750275254
+status: 3
+tags: []
+user_id: ritik

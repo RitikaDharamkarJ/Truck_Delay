@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/2029989d3444482a875637d6a4c29450/artifacts
+end_time: 1730774169807
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2029989d3444482a875637d6a4c29450
+run_name: worried-cod-588
+run_uuid: 2029989d3444482a875637d6a4c29450
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730774167321
+status: 3
+tags: []
+user_id: ritik

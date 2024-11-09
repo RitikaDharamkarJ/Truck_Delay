@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/9ba7b6947f7e44e29d24d656be8cae89/artifacts
+end_time: 1730779773311
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ba7b6947f7e44e29d24d656be8cae89
+run_name: stately-wren-999
+run_uuid: 9ba7b6947f7e44e29d24d656be8cae89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730779770889
+status: 3
+tags: []
+user_id: ritik

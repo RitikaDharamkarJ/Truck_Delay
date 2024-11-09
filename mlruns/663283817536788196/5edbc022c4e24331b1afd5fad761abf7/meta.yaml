@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Truck_Delay_Classification/mlruns/663283817536788196/5edbc022c4e24331b1afd5fad761abf7/artifacts
+end_time: 1729628926168
+entry_point_name: ''
+experiment_id: '663283817536788196'
+lifecycle_stage: active
+run_id: 5edbc022c4e24331b1afd5fad761abf7
+run_name: Random_Forest
+run_uuid: 5edbc022c4e24331b1afd5fad761abf7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729628908524
+status: 3
+tags: []
+user_id: ritik

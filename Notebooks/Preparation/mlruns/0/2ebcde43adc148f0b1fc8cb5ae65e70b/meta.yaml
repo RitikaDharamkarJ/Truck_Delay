@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Truck_Delay_Classification/Notebooks/Preparation/mlruns/0/2ebcde43adc148f0b1fc8cb5ae65e70b/artifacts
+end_time: 1729698608743
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ebcde43adc148f0b1fc8cb5ae65e70b
+run_name: resilient-yak-211
+run_uuid: 2ebcde43adc148f0b1fc8cb5ae65e70b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729698606520
+status: 3
+tags: []
+user_id: ritik

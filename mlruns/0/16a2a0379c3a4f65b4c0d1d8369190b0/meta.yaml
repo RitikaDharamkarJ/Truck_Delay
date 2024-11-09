@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/16a2a0379c3a4f65b4c0d1d8369190b0/artifacts
+end_time: 1730773534986
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16a2a0379c3a4f65b4c0d1d8369190b0
+run_name: defiant-stag-536
+run_uuid: 16a2a0379c3a4f65b4c0d1d8369190b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730773532543
+status: 3
+tags: []
+user_id: ritik

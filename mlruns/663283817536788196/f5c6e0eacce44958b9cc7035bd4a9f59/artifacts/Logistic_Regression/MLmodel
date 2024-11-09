@@ -1,0 +1,20 @@
+artifact_path: Logistic_Regression
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.17.0
+model_size_bytes: 6629
+model_uuid: 8e5249c6fb64492fa911c17ffc9b9050
+run_id: f5c6e0eacce44958b9cc7035bd4a9f59
+utc_time_created: '2024-10-27 02:12:00.172314'

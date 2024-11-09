@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Truck_Delay_Classification/mlruns/663283817536788196/1dff6dd0d5af4e0d92c8677cb56a1abe/artifacts
+end_time: 1729628939860
+entry_point_name: ''
+experiment_id: '663283817536788196'
+lifecycle_stage: active
+run_id: 1dff6dd0d5af4e0d92c8677cb56a1abe
+run_name: XGBoost
+run_uuid: 1dff6dd0d5af4e0d92c8677cb56a1abe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729628926176
+status: 3
+tags: []
+user_id: ritik

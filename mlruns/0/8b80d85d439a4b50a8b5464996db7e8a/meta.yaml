@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8b80d85d439a4b50a8b5464996db7e8a/artifacts
+end_time: 1730141425827
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b80d85d439a4b50a8b5464996db7e8a
+run_name: vaunted-perch-363
+run_uuid: 8b80d85d439a4b50a8b5464996db7e8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730141423440
+status: 3
+tags: []
+user_id: ritik

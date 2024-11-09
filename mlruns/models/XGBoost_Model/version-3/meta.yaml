@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1729806081885
+current_stage: None
+description: ''
+last_updated_timestamp: 1729806081885
+name: XGBoost_Model
+run_id: a27ab25228744c4b9c9eac61d12406e5
+run_link: ''
+source: file:///C:/Truck_Delay_Classification/mlruns/663283817536788196/a27ab25228744c4b9c9eac61d12406e5/artifacts/XGBoost
+status: READY
+status_message: null
+storage_location: file:///C:/Truck_Delay_Classification/mlruns/663283817536788196/a27ab25228744c4b9c9eac61d12406e5/artifacts/XGBoost
+user_id: null
+version: 3

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/58fc21ffb2214eee8a0f3577f246b75d/artifacts
+end_time: 1730755543095
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 58fc21ffb2214eee8a0f3577f246b75d
+run_name: upbeat-wren-227
+run_uuid: 58fc21ffb2214eee8a0f3577f246b75d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730755374681
+status: 3
+tags: []
+user_id: ritik

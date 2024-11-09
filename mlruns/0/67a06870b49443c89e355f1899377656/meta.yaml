@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/67a06870b49443c89e355f1899377656/artifacts
+end_time: 1730262565765
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 67a06870b49443c89e355f1899377656
+run_name: clumsy-chimp-192
+run_uuid: 67a06870b49443c89e355f1899377656
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730262563460
+status: 3
+tags: []
+user_id: ritik

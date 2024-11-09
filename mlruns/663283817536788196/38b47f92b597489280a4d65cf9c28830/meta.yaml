@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Truck_Delay_Classification/mlruns/663283817536788196/38b47f92b597489280a4d65cf9c28830/artifacts
+end_time: 1729979633827
+entry_point_name: ''
+experiment_id: '663283817536788196'
+lifecycle_stage: active
+run_id: 38b47f92b597489280a4d65cf9c28830
+run_name: Logistic Regression
+run_uuid: 38b47f92b597489280a4d65cf9c28830
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729979610938
+status: 3
+tags: []
+user_id: ritik

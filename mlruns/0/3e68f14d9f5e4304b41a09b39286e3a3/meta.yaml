@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/3e68f14d9f5e4304b41a09b39286e3a3/artifacts
+end_time: 1730756268433
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3e68f14d9f5e4304b41a09b39286e3a3
+run_name: dazzling-roo-161
+run_uuid: 3e68f14d9f5e4304b41a09b39286e3a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730755634748
+status: 3
+tags: []
+user_id: ritik

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Truck_Delay_Classification/mlruns/663283817536788196/8ebacdf132b4497f911e754cace2dbcf/artifacts
+end_time: 1729980170306
+entry_point_name: ''
+experiment_id: '663283817536788196'
+lifecycle_stage: active
+run_id: 8ebacdf132b4497f911e754cace2dbcf
+run_name: smiling-quail-856
+run_uuid: 8ebacdf132b4497f911e754cace2dbcf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729980169095
+status: 3
+tags: []
+user_id: ritik

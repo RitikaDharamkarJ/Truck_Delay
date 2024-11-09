@@ -3,3 +3,4 @@ Data
 tdcenv
 env
 /src/__pycache__/
+/mlruns

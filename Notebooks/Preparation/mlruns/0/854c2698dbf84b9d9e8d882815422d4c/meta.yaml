@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Truck_Delay_Classification/Notebooks/Preparation/mlruns/0/854c2698dbf84b9d9e8d882815422d4c/artifacts
+end_time: 1729706749997
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 854c2698dbf84b9d9e8d882815422d4c
+run_name: loud-flea-961
+run_uuid: 854c2698dbf84b9d9e8d882815422d4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729706747724
+status: 3
+tags: []
+user_id: ritik
